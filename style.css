@@ -1,16 +1,3 @@
-.good {
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.linea_gris {
-  border-bottom: 2px solid #ccc;
-  margin-top: 3px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
 .barra_aderecha {
   list-style: none;
   margin: 0;
@@ -26,4 +13,18 @@
 .barra_aderecha ul li a {
   text-decoration: none;
   color: black;
+}
+
+.good {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.linea_gris {
+  border-bottom: 2px solid #ccc;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
