@@ -1,0 +1,121 @@
+.good {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*.linea_gris {
+  border-bottom: 2px solid #ccc;
+  margin-top: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}*/
+header {
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.lista_derecha {
+  list-style: none;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 3px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 5px;
+}
+.lista_derecha li {
+  margin-right: 10px;
+  display: inline-block;
+  justify-content: flex-end;
+}
+.menu_derecha {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.lista_derecha li a {
+  text-decoration: none;
+  padding: 1px 10px; /* Ajusta el espacio alrededor del texto */
+  border: 1px solid rgb(231, 227, 225);
+  border-radius: 5px;
+  color: black;
+}
+.primer_caja {
+  background-color: aqua;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  display: flex;
+  height: 500px;
+  flex-grow: 1;
+  margin: 20px;
+  justify-content: space-between;
+}
+.caja_primer_img {
+  background-color: chocolate;
+  flex-grow: 1;
+  flex: 1;
+  max-width: 100%;
+}
+.primer_oferta {
+  background-color: blanchedalmond;
+  flex-grow: 1;
+  flex: 1;
+  max-width: 100%;
+}
+.ifhone {
+  color: black;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.texto_ifon {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.linea_compra {
+  padding: 0px;
+  margin: 10px;
+  display: flex;
+  justify-content: left;
+  flex-grow: 1;
+  margin: 20px;
+  justify-content: space-between;
+}
+.boton_compra {
+  flex-grow: 1;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+.boton {
+  color: wheat;
+  background-color: rgb(70, 70, 142);
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.linea_iconos {
+  display: flex;
+  justify-content: space-between;
+}
+.envios {
+  display: flex;
+}
+.texto_iconitos {
+  font-size: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+  margin-left: 0px;
+}
