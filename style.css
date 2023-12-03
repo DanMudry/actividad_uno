@@ -83,3 +83,39 @@ header {
   margin-top: 10px;
   margin-left: 20px;
 }
+.linea_compra {
+  padding: 0px;
+  margin: 10px;
+  display: flex;
+  justify-content: left;
+  flex-grow: 1;
+  margin: 20px;
+  justify-content: space-between;
+}
+.boton_compra {
+  flex-grow: 1;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+.boton {
+  color: wheat;
+  background-color: rgb(70, 70, 142);
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.linea_iconos {
+  display: flex;
+  justify-content: space-between;
+}
+.envios {
+  display: flex;
+}
+.texto_iconitos {
+  font-size: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+  margin-left: 0px;
+}
