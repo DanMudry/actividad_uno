@@ -98,12 +98,14 @@ header {
   margin-top: 5px;
 }
 .boton {
-  color: wheat;
+  color: white;
   background-color: rgb(70, 70, 142);
   height: 35px;
   width: 100px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
+  border:none;
+  font-weight: bold;
 }
 .linea_iconos {
   display: flex;
@@ -118,4 +120,39 @@ header {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 5px;
   margin-left: 0px;
+}
+.padre_linea_accesorios {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+.accesorio {
+  border: 1px solid #ececec;
+  padding: 12px;
+}
+.titulo_accesorio {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ancho_imagen {
+  width: 100%;
+}
+.texto_accesorio{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;"
+}
+.boton_oferta{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border: none;
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 35px;
+  padding: 0px;
+  border-radius: 5px;
+  
 }
