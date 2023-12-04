@@ -124,8 +124,16 @@ header {
   margin-right: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 15px;
 }
-.accesorio{
+.accesorio {
   border: 1px solid #ececec;
   padding: 12px;
+}
+.titulo_accesorio {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ancho_imagen {
+  width: 100%;
+}
