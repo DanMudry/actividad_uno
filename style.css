@@ -46,7 +46,6 @@ header {
   color: black;
 }
 .primer_caja {
-  background-color: aqua;
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 20px;
@@ -57,13 +56,11 @@ header {
   justify-content: space-between;
 }
 .caja_primer_img {
-  background-color: chocolate;
   flex-grow: 1;
   flex: 1;
   max-width: 100%;
 }
 .primer_oferta {
-  background-color: blanchedalmond;
   flex-grow: 1;
   flex: 1;
   max-width: 100%;
@@ -124,6 +121,7 @@ header {
 .padre_linea_accesorios {
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 15px;
@@ -135,11 +133,13 @@ header {
 .titulo_accesorio {
   font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .ancho_imagen {
   width: 100%;
 }
 .texto_accesorio{
+  margin-bottom: 0px;
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;"
 }
@@ -153,6 +153,27 @@ header {
   width: 100px;
   height: 35px;
   padding: 0px;
-  border-radius: 5px;
+  border-radius: 5px; 
+}
+.padre_formulario_sorteo{
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
   
 }
+
+.fondo{
+  background-color: rgb(151, 208, 236);
+}
+.titulo_sorteo_ifone{
+  color: black;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.texto_accesorio.margen {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
