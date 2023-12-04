@@ -5,12 +5,7 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-/*.linea_gris {
-  border-bottom: 2px solid #ccc;
-  margin-top: 3px;
-  margin-left: 10px;
-  margin-right: 10px;
-}*/
+
 header {
   padding: 1px;
   display: flex;
@@ -187,3 +182,13 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 
 }
+footer {
+  margin-top: 20px;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  justify-content: center;
+  
+  }
