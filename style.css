@@ -137,3 +137,18 @@ header {
 .ancho_imagen {
   width: 100%;
 }
+.texto_accesorio{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;"
+}
+.boton_oferta{
+  font-weight: bold;
+  border: none;
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 30px;
+  padding: 0px;
+  border-radius: 5px;
+  
+}
