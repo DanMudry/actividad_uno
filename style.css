@@ -98,12 +98,14 @@ header {
   margin-top: 5px;
 }
 .boton {
-  color: wheat;
+  color: white;
   background-color: rgb(70, 70, 142);
   height: 35px;
   width: 100px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 15px;
+  border:none;
+  font-weight: bold;
 }
 .linea_iconos {
   display: flex;
@@ -142,12 +144,14 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;"
 }
 .boton_oferta{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   border: none;
   background-color: red;
   color: white;
-  width: 80px;
-  height: 30px;
+  width: 100px;
+  height: 35px;
   padding: 0px;
   border-radius: 5px;
   
